@@ -1,0 +1,73 @@
+@import "../../vendors/mixins";
+@import "../../vendors/variables";
+
+.home-connect {
+    background: #000;
+    padding: 10px 20px 60px 20px;
+    @include flexCenter;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+
+    h3 {
+        font-size: 24px;
+        color: #fff;
+        font-weight: 500;
+        margin-bottom: 1.5em;
+        letter-spacing: 0.5px;
+    }
+
+    .connections {
+        @include flexCenter;
+        gap: 18px;
+        flex-wrap: wrap;
+
+        .connect-button {
+            padding: 16px;
+            background-color: #4f535c;
+            color: $main-color;
+            border: none;
+            border-radius: 16px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.10);
+            transition: background 0.2s, color 0.2s, transform 0.18s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            svg {
+                width: 28px;
+                height: 28px;
+                transition: color 0.2s;
+            }
+
+            &:hover {
+                background: $main-color;
+                color: #fff;
+                transform: translateY(-3px) scale(1.08);
+                svg {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .home-connect {
+        padding: 40px 5px 30px 5px;
+        h3 {
+            font-size: 18px;
+        }
+        .connections {
+            gap: 10px;
+            .connect-button {
+                padding: 12px;
+                svg {
+                    width: 22px;
+                    height: 22px;
+                }
+            }
+        }
+    }
+}
