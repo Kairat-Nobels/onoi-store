@@ -1,7 +1,7 @@
 import React from "react";
 import { Modal } from "rsuite";
 import { FaWhatsapp } from "react-icons/fa";
-import payment from "../../../../assets/images/payment.jpg";
+import payment from "../../../../assets/images/payment.jpeg";
 import { useSelector } from "react-redux";
 import "rsuite/dist/rsuite.min.css";
 
@@ -25,7 +25,7 @@ const PaymentModal = ({ isOpen, onClose, promoApplied, discount }) => {
       .join("\n") +
     `\n\nИтого: ${discountedPrice} сом${promoApplied ? " (со скидкой 20%)" : ""}`;
 
-  const whatsappLink = `https://wa.me/996999930030?text=${encodeURIComponent(
+  const whatsappLink = `https://wa.me/996504222222?text=${encodeURIComponent(
     orderText
   )}`;
 

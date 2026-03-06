@@ -9,9 +9,9 @@ const Connect = () => {
             <h3 data-aos="fade-up">Наши социальные сети!</h3>
             <div className="connections">
                 <HomeConnectItem logo={<AiFillFacebook />} link="https://www.facebook.com/" />
-                <HomeConnectItem logo={<AiOutlineWhatsApp />} link="https://wa.me/996999930030" />
+                <HomeConnectItem logo={<AiOutlineWhatsApp />} link="https://wa.me/996504222222" />
                 <HomeConnectItem logo={<AiOutlineGoogle />} link="https://www.google.com/" />
-                <HomeConnectItem logo={<AiFillInstagram />} link="https://www.instagram.com/" />
+                <HomeConnectItem logo={<AiFillInstagram />} link="https://www.instagram.com/onoistore?igsh=MmxrbHk3NXE1NXIw&utm_source=qr" />
             </div>
         </div>
     )
