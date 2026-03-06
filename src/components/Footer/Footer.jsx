@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer style={{ background: "#3a3a3a" }} className='d-flex flex-column flex-sm-row justify-content-between p-5'>
             <div className="footer-left pt-2">
-                <span className='text-white'>Copyright © 2025 ONOISTORE</span>
+                <span className='text-white'>Copyright © 2026 ONOISTORE</span>
             </div>
             <div className="footer-right pt-2">
                 <span className='pe-1 text-white'>Made by</span>
